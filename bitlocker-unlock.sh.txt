@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo dislocker -r -V /dev/sde1 -u -- /media/bitlocker
+sudo mount -r -o loop /media/bitlocker/dislocker-file /media/mount
